@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Expertise - Take the help from our hiring work</title>
+    <link rel="icon" type="ico" href="../assets/images/favicon.ico">
+    <meta name="description" content="Your company's greatest assest are your people. Take help our hiring experts to recruit the best desired talents." />
+    <meta name="keywords" content="Human Recourse Management system, Hiring solution, Talent Management Software, Application Tracking System, AI-Enabled, Recruitment Management software, recruitment system, Talent CRM, HR Software, Bangalore, India" />
+    <meta property="og:title" title="Expertise - Take the help from our hiring work" />
+    <meta property="og:image" content="https://groome.co/" />
+    <meta property="og:description" content="Your company's greatest assest are your people. Take help our hiring experts to recruit the best desired talents." />
+    <meta property="og:url" content="https://groome.co/" />
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="Robots" content="index,follow">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/menu.css">
+    <!-- Full Page Scroll -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/jquery.fullpage.css" />
+
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/vendors/jquery.easings.min.js"></script>
+
+
+    <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/vendors/scrolloverflow.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/jquery.fullpage.min.js"></script>
+
+    <!-- End: FullPage Scroll -->
+    <style>
+
+.wBHeight,.workBlob{
+  height: inherit;
+}
+    </style>
+    <link rel="canonical" href="http://localhost:4000/">
+    <link rel="alternate" type="application/rss+xml" title="Groome - HR and Staffing solution" href="/feed.xml">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <script src="/assets/js/modernizr.js"></script>
+    <script src="https://code.jquery.com/pep/0.4.3/pep.js"></script>
+    
+  </head>
+  <body>
+    <header class="cd-header">
+      <div class="cd-logo"><a href="/"><img src="../assets/images/asset-1@3x.png" alt="Logo"></a></div>
+
+      <nav>
+        <ul class="cd-secondary-nav">
+          <li><a href="/work">Work</a></li>
+        <li><a href="/practice">Prctice</a></li>
+          <li><a href="/aboutUs">About</a></li>
+          <li><a><button>Lets talk</button></a></li>
+          
+          
+          
+        </ul>
+      </nav> <!-- cd-nav -->
+
+      <a class="cd-primary-nav-trigger" href="#0">
+        <span class="cd-menu-text">Menu</span><span class="cd-menu-icon"></span>
+      </a> <!-- cd-primary-nav-trigger -->
+    </header>
+
+    <nav>
+      <ul class="cd-primary-nav">
+        
+          <li><a href="/work">Work</a></li>
+        <li><a href="practice">Prctice</a></li>
+          <li><a href="/aboutUs">About</a></li>
+        <li><a><button>Request Demo</button></a></li>
+
+
+      </ul>
+    </nav>
+    <script>
+    jQuery(document).ready(function($){
+      //if you change this breakpoint in the style.css file (or _layout.scss if you use SASS), don't forget to update this value as well
+      var MQL = 1170;
+    
+      //primary navigation slide-in effect
+      if($(window).width() > MQL) {
+        var headerHeight = $('.cd-header').height();
+        $(window).on('scroll',
+        {
+              previousTop: 0
+          }, 
+          function () {
+            var currentTop = $(window).scrollTop();
+            //check if user is scrolling up
+            if (currentTop < this.previousTop ) {
+              //if scrolling up...
+              if (currentTop > 0 && $('.cd-header').hasClass('is-fixed')) {
+                $('.cd-header').addClass('is-visible');
+              } else {
+                $('.cd-header').removeClass('is-visible is-fixed');
+              }
+            } else {
+              //if scrolling down...
+              $('.cd-header').removeClass('is-visible');
+              if( currentTop > headerHeight && !$('.cd-header').hasClass('is-fixed')) $('.cd-header').addClass('is-fixed');
+            }
+            this.previousTop = currentTop;
+        });
+      }
+    
+      //open/close primary navigation
+      $('.cd-primary-nav-trigger').on('click', function(){
+        $('.cd-menu-icon').toggleClass('is-clicked'); 
+        $('.cd-header,.cd-primary-nav-trigger').toggleClass('menubar');
+        $('.cd-logo').toggle();
+        
+        //in firefox transitions break when parent overflow is changed, so we need to wait for the end of the trasition to give the body an overflow hidden
+        if( $('.cd-primary-nav').hasClass('is-visible') ) {
+          $('.cd-primary-nav').removeClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
+            $('body').removeClass('overflow-hidden');
+          });
+        } else {
+          $('.cd-primary-nav').addClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
+            $('body').addClass('overflow-hidden');
+
+          });	
+        }
+      });
+    });
+    
+    
+    
+    
+  </script>
+  
+
+   <div class="aboutUs">
+
+       <div class="aboutUs__banner lb_bdy">
+           <div class="aboutUs__bannerHead">
+            Get to know all 
+            <span>about</span> us
+           </div> 
+           <p>Little Brahma is a strategy and design consulting firm that helps 
+               companies build positive change through better products. 
+               We are researchers, designers,
+           </p>
+       </div>
+       <div class="aboutUs__animation">
+           <div class="mobile">
+             <img src="../assets/images/aboutUs/without-bg.png">
+            </div>
+            <div class="tab">
+                <img src="../assets/images/aboutUs/without-bg-@2x.png">
+            </div>
+            <div class="desktop">
+                    <img src="../assets/images/aboutUs/without-bg@3x.png">
+                </div>
+       </div>
+       <div class="aboutUs__state">
+            <div class="aboutUs__stateHead">
+                    State of mind at Little Brahma 
+            </div>
+            <p>
+                    We are young, adventerous and good hearted. 
+                    We aim to bring a social change by good design and great collaboration.
+                     Customer delight is what we strive for and midweek parties are what we love to do!  
+            </p>
+            <div class="aboutUs__imgGalleryMob">
+                    <img src="../assets/images/aboutUs/gallerynew.png">
+            </div>
+            <div class="aboutUs__imgGalleryTab">
+                    <img src="../assets/images/aboutUs/gallerynew@2x.png">
+            </div>
+            <div class="aboutUs__imgGalleryDesktop">
+                    <img src="../assets/images/aboutUs/gallerynew@3x.png">
+            </div>
+       </div>
+   </div>
+   
+
+<footer class="Groome-footer">
+   <!--<span> © Littlebrahma.2018</span>-->
+   <div class="lb-footer">
+        <div class="lb-footer-section">© Littlebrahma.2018</div>
+        <div class="lb-footer-section lb-icon-align"><i class="fa fa-facebook"></i>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-facebook"></i></div>
+        <div class="lb-footer-section lb-footer-textalign">hello@littlebrahma.com</div>
+   </div>
+<script type="text/javascript" src="/assets/js/fullPagescroll.js"></script>
+<script type="text/javascript" src="/assets/js/work.js"></script>
+</footer>
+</body>
+</html> 
