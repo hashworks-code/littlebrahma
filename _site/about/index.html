@@ -4,8 +4,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>littleBrahma</title>
-    <link rel="icon" type="ico" href="../assets/images/asset-1.png">
+    <title>About</title>
+    <link rel="icon" type="ico" href="../assets/images/favicon.ico">
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta property="og:title" title="About" />
@@ -44,7 +44,7 @@
 }
     </style>
     <link rel="canonical" href="http://localhost:4000/">
-    <link rel="alternate" type="application/rss+xml" title="little" href="/feed.xml">
+    <link rel="alternate" type="application/rss+xml" title="Groome - HR and Staffing solution" href="/feed.xml">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
@@ -58,10 +58,10 @@
 
       <nav>
         <ul class="cd-secondary-nav">
-          <li><a href="/work">Work</a></li>
-        <li><a href="/practice">Prctice</a></li>
-          <li><a href="/aboutUs">About</a></li>
-          <li><a><button>Lets talk</button></a></li>
+          <li class="cd-secondary-navli"><a href="/work">Work</a></li>
+        <li class="cd-secondary-navli"><a href="/practice">Prctice</a></li>
+          <li class="cd-secondary-navli"><a href="/aboutUs">About</a></li>
+          <li ><a class="cd-secondary-navLasta"><button class="headerButton">Lets talk</button></a></li>
           
           
           
@@ -79,7 +79,7 @@
           <li><a href="/work">Work</a></li>
         <li><a href="practice">Prctice</a></li>
           <li><a href="/aboutUs">About</a></li>
-        <li><a><button>Request Demo</button></a></li>
+        <li><a><button class="headerButton">Lets talk</button></a></li>
 
 
       </ul>
@@ -134,6 +134,11 @@
         }
       });
     });
+
+    // $(".cd-secondary-navli").on('click', function(){
+    //     $(this).addClass('headerActive');
+    //     $(this).siblings().removeClass('headerActive');
+    // });
     
     
     

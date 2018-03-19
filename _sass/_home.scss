@@ -50,7 +50,33 @@
 
 @media only screen and (min-width: 320px){
     .workBlob{
-            display: none;
+        display: none;
+    }
+    .ourwork_mb{
+       display: block;
+    }
+    .ourwork_mb_text{
+        text-align: center;
+        font-family: PTSans;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.71;
+        letter-spacing: normal;
+        text-align: center;
+        color: #4a4a4a;
+    }
+    .ourwork_mb_textp{
+        font-family: MavenPro;
+        font-size: 18px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #393939;
     }
     .home{
 
@@ -83,6 +109,9 @@
     .workBlob{
             display: block;
     }
+    .ourwork_mb{
+       display: none;
+    }
     .home{
        
         &__banner{
@@ -107,6 +136,9 @@
 @media only screen and (min-width: 1025px){
     .workBlob{
             display: block;
+    }
+    .ourwork_mb{
+       display: none;
     }
     .home{
        
@@ -137,6 +169,9 @@
 @media only screen and (min-width: 1367px){
    .workBlob{
             display: block;
+    }
+    .ourwork_mb{
+       display: none;
     }
     .home{
        
