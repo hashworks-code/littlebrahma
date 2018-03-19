@@ -1,5 +1,109 @@
 {% include head.html %}
-<div>
-welcome to case study
-</div>
-{% include footer.html %}
+   <div class="caseStudy lb_bdy">
+
+       <div class="caseStudy__banner ">
+            {{ page.cBanner1 }}
+           <span> {{ page.cBanner2 }} </span> {{ page.cBanner3 }}
+           
+       </div>
+       <div class="caseStudy__animation">
+            
+             <div class="desktop">
+                     <img src="/assets/images/caseStudy/{{ page.cImg1  | downcase }}.png">
+                </div>
+        </div>
+        <div class="caseStudy__content1">
+            <div class="caseStudy_cHead">
+                    {{ page.cHead1 }}
+            </div>
+            <p>{{ page.cContent1 }}</p>
+        </div>
+        <div class="caseStudy__cImg">
+                <img src="/assets/images/caseStudy/{{ page.cImg2  | downcase }}.png">
+        </div>
+        <div class="caseStudy__bgImg" style="background-image: url('{{page.variation_image1}}');">
+                <div class="caseStudy__content2">
+                    <div class="caseStudy__c2Head">{{ page.cHead2 }}</div>
+                            <p>{{ page.cContent2 }} </p>
+                </div>
+        </div>
+        <div class="caseStudy__content1">
+                <div class="caseStudy_cHead">
+                        {{ page.cHead3 }} 
+                </div>
+                <p>{{ page.cContent3 }}</p>
+         </div>
+         <div class="caseStudy__cImg">
+                <img src="/assets/images/caseStudy/{{ page.cImg3  | downcase }}.png">
+        </div>
+        <div class="caseStudy__bgImg1" style="background-image: url('{{page.variation_image2}}');">
+                <div class="caseStudy__content3">
+                    <div class="caseStudy__c3Head">{{ page.cHead4 }} </div>
+                            <p>{{ page.cContent4 }}</p>
+                </div>
+        </div>
+        <div class="caseStudy__bgImg2" style="background-image: url('{{page.variation_image3}}');">
+                <div class="caseStudy__content4">
+                    <div class="caseStudy__c4Head">{{ page.cHead5 }}</div>
+                            <p>{{ page.cContent5 }}</p>
+                </div>
+        </div>
+        <div class="caseStudy__eImg">
+                <img src="/assets/images/caseStudy/{{ page.cImg4  | downcase }}.png">
+        </div>
+        <div class="caseStudy__content5">
+            <div class="caseStudy__cImg5">
+                <img src="/assets/images/caseStudy/{{ page.cImg5  | downcase }}.png">
+                </div>
+                <div class="caseStudy__cont">
+                        <div class="caseStudy__c4Head">{{ page.cHead6 }}
+                            </div>
+                            <p>{{ page.cContent6 }}</p>
+                    </div>
+                    
+        </div>
+        <div class="caseStudy__content6">
+                <div class="caseStudy__cImg6">
+                    <img src="/assets/images/caseStudy/{{ page.cImg6  | downcase }}.png">
+                    </div>
+                    <div class="caseStudy__cont1">
+                            <div class="caseStudy__c4Head">{{ page.cHead7 }}
+                                </div>
+                                <p>{{ page.cContent7 }}</p>
+                        </div>
+                        
+            </div>
+            <div class="slider-nav">
+                    <div class="caseStudy__imgSlide">
+                        <img src="/assets/images/caseStudy/bitmap-copy-9.png">
+                    </div>
+                    <div class="caseStudy__imgSlide">
+                            <img src="/assets/images/caseStudy/bitmap-copy-10.png">
+                    </div>
+                    <div class="caseStudy__imgSlide">
+                            <img src="/assets/images/caseStudy/bitmap-copy-10.png">
+                    </div>
+                    <div class="caseStudy__imgSlide">
+                            <img src="/assets/images/caseStudy/bitmap-copy-9.png">
+                    </div>
+                    <div class="caseStudy__imgSlide">
+                            <img src="/assets/images/caseStudy/bitmap-copy-10.png">
+                    </div>
+                    <div class="caseStudy__imgSlide">
+                            <img src="/assets/images/caseStudy/bitmap-copy-9.png">
+                        </div>
+                        <div class="caseStudy__imgSlide">
+                                <img src="/assets/images/caseStudy/bitmap-copy-10.png">
+                        </div>
+                    
+                </div>
+
+            <div class="caseStudy__calImg">
+                    <img src="/assets/images/caseStudy/{{ page.cImg7 | downcase }}.png">
+            </div>
+
+          
+   </div>
+   
+
+{% include footer.html %} 
