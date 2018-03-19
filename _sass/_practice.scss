@@ -1,0 +1,255 @@
+//home/hashworks/Downloads/banner-4-a_2018-03-15/practiceBnr.png
+.prct{
+    &_rnImg{
+        // background: url("../assets/images/practice/practiceBnr.png") scroll 0 0 no-repeat transparent;
+        // background-size: cover;
+        // background-position: center center;
+        // height: 100vh;
+        width: 100vw;
+    }
+    img{
+        width: 100%;
+    }
+    .prctDicipline{
+        background: #fff;
+    }
+    &_dic{
+        padding-top: 45px;
+        padding-bottom: 45px;
+        .title{
+            font-family: "MavenPro-Medium";
+        }
+        .bldContent{
+            font-family: "MavenPro-Bold"
+        }
+        .bsTxt{
+            font-family: "PT_Sans-Regular"
+        }
+        .hckTitle{
+            display: none;
+        }
+        .imgContainer{
+            text-align: center
+        }
+    }
+    &_svc{
+        padding: 46px 35px 46px 29px;
+        background: #F4F4F4;
+        &_title{
+            font-family: "MavenPro-Medium";
+            background: #f4f4f4;
+            text-align: left;
+            .indTxt{
+                font-family: "MavenPro-Medium"
+            }
+            .indCon{
+                font-family: "PT_Sans-Regular"
+            }
+        }
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:767px){
+    .prct{
+        &_dic{
+            .hckTitle{
+                display: block;
+            }
+            img{
+                max-width: 350px;
+            }
+            .dicContents{
+                padding-left:50px !important;
+                padding-right:29px !important;
+                .title{
+                    display: none;
+                }
+            }
+            .title{
+                font-size: 20px;
+                // padding-bottom: 17px;
+            }
+            .bldContent{
+                font-size: 14px;
+                padding-bottom: 14px;
+            }
+            .bsTxt{
+                font-size: 14px;
+            }
+            // img{
+            //     width: 
+            // }
+        }
+        &_svc{
+            &_title{
+                text-align: center;
+                font-size: 20px;
+                .svcCont{
+                    padding-top: 35px;
+                    img{
+                        max-width: 135px;
+                    }
+                }
+                .indTxt{
+                    font-size: 17px;
+                    // padding-top: 50px;
+                }
+                .indCon{
+                    font-size: 14px;
+                    padding-top: 10px;
+                    padding-bottom: 5px;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width:768px){
+    .prct{
+        &_dic{
+            .hckTitle{
+                display: none;
+            }
+            .title{
+                font-size: 32px;
+                padding-bottom: 20px;
+                padding-top: 15px;
+            }
+            .bldContent{
+                font-size: 18px;
+                padding-bottom: 21px;
+            }
+            .bsTxt{
+                font-size: 17px;
+            }
+            img{
+                width: 293px;
+                height: 282px;
+                margin: -20px 0;
+            }
+            .dicContents{
+                .title{
+                    display: block;
+                }
+            }
+        }
+        &_svc{
+            padding:50px 100px;
+            &_title{
+                text-align: center;
+                font-size: 32px;
+                .svcCont{
+                    padding-top: 35px;
+                    img{
+                        max-width: 200px;
+                    }
+                }
+                .indTxt{
+                    font-size: 24px;
+                    // padding-top: 50px;
+                }
+                .indCon{
+                    font-size: 17px;
+                    padding-top: 15px;
+                    padding-bottom: 10px;
+                }
+            }
+        }
+    }    
+}
+@media screen and (min-width:1025px){
+    .prct{
+        &_dic{
+            .title{
+                font-size: 32px;
+                padding-bottom: 5px;
+                padding-top: 35px;
+            }
+            .bldContent{
+                font-size: 18px;
+                padding-bottom: 10px;                
+            }
+            .bsTxt{
+                font-size: 17px;
+            }
+            img{
+                width: 414px;
+                height: 377px;
+                margin: -20px 0;
+            }
+        }
+        &_svc{
+            padding:55px 150px;
+            &_title{
+                text-align: left;
+                font-size: 48px;
+                .svcCont{
+                    padding-top: 35px;
+                    img{
+                        max-width: 200px;
+                    }
+                }
+                .indTxt{
+                    font-size: 32px;
+                    // padding-top: 50px;
+                }
+                .indCon{
+                    font-size: 20px;
+                    padding-top: 15px;
+                    padding-bottom: 10px;
+                }
+            }
+            .sCont{
+                padding-top: 15px;
+            }
+        }
+    }    
+}
+@media screen and (min-width:1367px){
+    .prct{
+        &_dic{
+            .title{
+                font-size: 48px;
+                padding-bottom: 17px;
+                padding-top: 55px;
+                
+            }
+            .bldContent{
+                font-size: 24px;
+                padding-bottom: 28px;
+            }
+            .bsTxt{
+                font-size: 20px;
+            }
+            img{
+                width: 557px;
+                height: 506px;
+                margin: -20px 0;
+            }
+        }
+        &_svc{
+            padding:55px 150px;
+            &_title{
+                text-align: left;
+                font-size: 48px;
+                .svcCont{
+                    padding-top: 35px;
+                    img{
+                        max-width: 200px;
+                    }
+                }
+                .indTxt{
+                    font-size: 32px;
+                    // padding-top: 50px;
+                }
+                .indCon{
+                    font-size: 20px;
+                    padding-top: 15px;
+                    padding-bottom: 10px;
+                }
+                .lgCon{
+                    width: 830px;
+                }
+            }
+        }
+    }    
+}
