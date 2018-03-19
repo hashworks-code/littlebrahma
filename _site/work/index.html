@@ -1,0 +1,223 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Expertise - Take the help from our hiring work</title>
+    <link rel="icon" type="ico" href="../assets/images/asset-1.png">
+    <meta name="description" content="Your company's greatest assest are your people. Take help our hiring experts to recruit the best desired talents." />
+    <meta name="keywords" content="Human Recourse Management system, Hiring solution, Talent Management Software, Application Tracking System, AI-Enabled, Recruitment Management software, recruitment system, Talent CRM, HR Software, Bangalore, India" />
+    <meta property="og:title" title="Expertise - Take the help from our hiring work" />
+    <meta property="og:image" content="https://groome.co/" />
+    <meta property="og:description" content="Your company's greatest assest are your people. Take help our hiring experts to recruit the best desired talents." />
+    <meta property="og:url" content="https://groome.co/" />
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="Robots" content="index,follow">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/menu.css">
+    <!-- Full Page Scroll -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/jquery.fullpage.css" />
+
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/vendors/jquery.easings.min.js"></script>
+
+
+    <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/vendors/scrolloverflow.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/jquery.fullpage.min.js"></script>
+
+    <!-- End: FullPage Scroll -->
+    <style>
+
+.wBHeight,.workBlob{
+  height: inherit;
+}
+    </style>
+    <link rel="canonical" href="http://localhost:4000/">
+    <link rel="alternate" type="application/rss+xml" title="Groome - HR and Staffing solution" href="/feed.xml">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <script src="/assets/js/modernizr.js"></script>
+    <script src="https://code.jquery.com/pep/0.4.3/pep.js"></script>
+    
+  </head>
+  <body>
+    <header class="cd-header">
+      <div class="cd-logo"><a href="/"><img src="../assets/images/asset-1@3x.png" alt="Logo"></a></div>
+
+      <nav>
+        <ul class="cd-secondary-nav">
+          <li><a href="/work">Work</a></li>
+        <li><a href="/practice">Prctice</a></li>
+          <li><a href="/aboutUs">About</a></li>
+          <li><a><button>Lets talk</button></a></li>
+          
+          
+          
+        </ul>
+      </nav> <!-- cd-nav -->
+
+      <a class="cd-primary-nav-trigger" href="#0">
+        <span class="cd-menu-text">Menu</span><span class="cd-menu-icon"></span>
+      </a> <!-- cd-primary-nav-trigger -->
+    </header>
+
+    <nav>
+      <ul class="cd-primary-nav">
+        
+          <li><a href="/work">Work</a></li>
+        <li><a href="practice">Prctice</a></li>
+          <li><a href="/aboutUs">About</a></li>
+        <li><a><button>Request Demo</button></a></li>
+
+
+      </ul>
+    </nav>
+    <script>
+    jQuery(document).ready(function($){
+      //if you change this breakpoint in the style.css file (or _layout.scss if you use SASS), don't forget to update this value as well
+      var MQL = 1170;
+    
+      //primary navigation slide-in effect
+      if($(window).width() > MQL) {
+        var headerHeight = $('.cd-header').height();
+        $(window).on('scroll',
+        {
+              previousTop: 0
+          }, 
+          function () {
+            var currentTop = $(window).scrollTop();
+            //check if user is scrolling up
+            if (currentTop < this.previousTop ) {
+              //if scrolling up...
+              if (currentTop > 0 && $('.cd-header').hasClass('is-fixed')) {
+                $('.cd-header').addClass('is-visible');
+              } else {
+                $('.cd-header').removeClass('is-visible is-fixed');
+              }
+            } else {
+              //if scrolling down...
+              $('.cd-header').removeClass('is-visible');
+              if( currentTop > headerHeight && !$('.cd-header').hasClass('is-fixed')) $('.cd-header').addClass('is-fixed');
+            }
+            this.previousTop = currentTop;
+        });
+      }
+    
+      //open/close primary navigation
+      $('.cd-primary-nav-trigger').on('click', function(){
+        $('.cd-menu-icon').toggleClass('is-clicked'); 
+        $('.cd-header,.cd-primary-nav-trigger').toggleClass('menubar');
+        $('.cd-logo').toggle();
+        
+        //in firefox transitions break when parent overflow is changed, so we need to wait for the end of the trasition to give the body an overflow hidden
+        if( $('.cd-primary-nav').hasClass('is-visible') ) {
+          $('.cd-primary-nav').removeClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
+            $('body').removeClass('overflow-hidden');
+          });
+        } else {
+          $('.cd-primary-nav').addClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
+            $('body').addClass('overflow-hidden');
+
+          });	
+        }
+      });
+    });
+    
+    
+    
+    
+  </script>
+  
+
+   <div class="prct">
+       <!--<div class="home__banner">
+           <div class="home__bannerHead">
+            We are what we
+            <span>Design</span>
+           </div> 
+           <p>Solving problems that makes a difference to people’s lives gives us a kick. We don’t work on everything that comes across us but only on projects that make a difference to our lives. 
+           </p>
+       </div>-->
+       <div class="bnrBdy">
+            <div class="bnr">
+                <div class="heroText">
+                    We are what we <span class="heroHighlight">Design</span>
+                </div>
+                <div class="bnrText">
+                    Solving problems that 
+                    makes a difference to people’s<br>
+                     lives gives us a kick. We don’t 
+                     work on <br>everything that comes across us but<br> only on projects that make a difference to our lives.
+                </div>
+            </div>
+        </div>
+       <div class="lb_nostatic">
+           <div class="">
+             <img src="../assets/images/group-3.png" class="landingImg" alt="Logo">
+           </div>
+       </div>
+
+       <div class="lb_caseStusy">
+            <ul class="lb_work_filter lb_filter_lg">
+                <li class="lb_work_filterli lb_work_filterActive">Product Design</li>
+                <li class="lb_work_filterli">Service Design</li>
+                <li class="lb_work_filterli">Banding and communication</li>
+            </ul>
+            <div class="lb_filter_mb">
+                <select>
+                    <option class="">Product Design</option>
+                    <option class="">Service Design</option>
+                    <option class="">Banding and communication</option>
+                </select>
+            </div>
+          <div>
+                <img src="../assets/images/hashworksnew.png" class="landingImg" alt="Logo">
+          </div>
+          <div>
+                <img src="../assets/images/enigma-new.png" class="landingImg" alt="Logo">
+          </div>
+          <div>
+                <img src="../assets/images/paketo-new.png" class="landingImg" alt="Logo">
+          </div>
+          <div>
+              <div class="lb_btn_div">
+                <button class="lb_btn">More Stuff</button>
+              </div>
+          </div>
+           
+          
+
+        </div>
+         <!--Next thinking image-->
+           
+           
+   </div>
+ <div class="lb_homeThink">
+
+</div>
+<footer class="Groome-footer">
+   <!--<span> © Littlebrahma.2018</span>-->
+   <div class="lb-footer">
+        <div class="lb-footer-section">© Littlebrahma.2018</div>
+        <div class="lb-footer-section lb-icon-align"><i class="fa fa-facebook"></i>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-facebook"></i></div>
+        <div class="lb-footer-section lb-footer-textalign">hello@littlebrahma.com</div>
+   </div>
+<script type="text/javascript" src="/assets/js/fullPagescroll.js"></script>
+<script type="text/javascript" src="/assets/js/work.js"></script>
+</footer>
+</body>
+</html> 
+
