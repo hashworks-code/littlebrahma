@@ -432,7 +432,7 @@
     z-index: -1; } }
 @media only screen and (min-width: 320px) {
   .aboutUs__banner {
-    margin: 0 29px 49px 29px; }
+    margin: 110px 29px 49px 29px; }
     .aboutUs__banner p {
       font-family: 'PT_Sans-Regular';
       line-height: 1.71;
@@ -486,7 +486,7 @@
     display: none; } }
 @media only screen and (min-width: 768px) {
   .aboutUs__banner {
-    margin: 0 94px 52px 94px; }
+    margin: 175px 94px 52px 94px; }
     .aboutUs__banner p {
       font-size: 20px; }
   .aboutUs__bannerHead {
@@ -522,7 +522,7 @@
     display: none; } }
 @media only screen and (min-width: 1025px) {
   .aboutUs__banner {
-    margin: 0 122px 84px 122px; }
+    margin: 231px 122px 84px 122px; }
   .aboutUs__bannerHead {
     font-size: 48px;
     padding-bottom: 36px; }
@@ -551,7 +551,7 @@
       height: 100%; } }
 @media only screen and (min-width: 1367px) {
   .aboutUs__banner {
-    margin: 0 260px 182px 260px; }
+    margin: 313px 260px 182px 260px; }
   .aboutUs__bannerHead {
     font-size: 60px;
     padding-bottom: 34px; }
@@ -567,6 +567,165 @@
     padding-bottom: 18px; }
   .aboutUs__imgGalleryDesktop {
     padding: 112px 0 0 0; } }
+.caseStudy__banner {
+  margin: 313px 166px 168px 166px;
+  font-weight: 600;
+  font-family: 'MavenPro-Medium';
+  font-size: 60px;
+  color: #393939; }
+  .caseStudy__banner span {
+    color: #ea1c49; }
+.caseStudy__animation img {
+  width: 100%;
+  height: 100%; }
+.caseStudy__content1 {
+  margin: 150px 260px 140px 260px;
+  border-left: 5px solid #2db2ea;
+  padding: 0 100px; }
+  .caseStudy__content1 p {
+    font-size: 20px;
+    font-family: 'PT_Sans-Regular';
+    line-height: 1.5;
+    color: #5d6a6f; }
+.caseStudy_cHead {
+  font-weight: 600;
+  font-family: 'MavenPro-Medium';
+  font-size: 32px;
+  color: #393939;
+  padding-bottom: 23px; }
+.caseStudy__cImg {
+  margin: 0 165px; }
+  .caseStudy__cImg img {
+    width: 100%;
+    height: 100%; }
+.caseStudy__bgImg {
+  margin-top: 120px;
+  min-height: 654px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center; }
+.caseStudy__content2 {
+  width: 45%;
+  padding-left: 163px; }
+  .caseStudy__content2 p {
+    font-size: 17px;
+    font-family: 'PT_Sans-Regular';
+    line-height: 1.5;
+    color: #5d6a6f; }
+.caseStudy__c2Head {
+  font-weight: 600;
+  font-family: 'MavenPro-Medium';
+  font-size: 32px;
+  color: #393939;
+  padding-bottom: 23px; }
+.caseStudy__bgImg1 {
+  margin-top: 120px;
+  min-height: 654px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; }
+.caseStudy__content3 {
+  width: 36%;
+  padding-right: 100px; }
+  .caseStudy__content3 p {
+    font-size: 17px;
+    font-family: 'PT_Sans-Regular';
+    line-height: 1.5;
+    color: #5d6a6f; }
+.caseStudy__c3Head {
+  font-weight: 600;
+  font-family: 'MavenPro-Medium';
+  font-size: 32px;
+  color: #393939;
+  padding-bottom: 23px; }
+.caseStudy__bgImg2 {
+  margin-top: 120px;
+  min-height: 654px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center; }
+.caseStudy__content4 {
+  width: 40%;
+  padding-left: 120px; }
+  .caseStudy__content4 p {
+    font-size: 17px;
+    font-family: 'PT_Sans-Regular';
+    line-height: 1.5;
+    color: #5d6a6f; }
+.caseStudy__c4Head {
+  font-weight: 600;
+  font-family: 'MavenPro-Medium';
+  font-size: 32px;
+  color: #393939;
+  padding-bottom: 23px; }
+.caseStudy__content5 {
+  margin: 120px 167px 0 167px;
+  position: relative; }
+.caseStudy__cImg5 {
+  width: 75%;
+  margin: 0 0 0 auto;
+  display: flex;
+  justify-content: flex-end; }
+  .caseStudy__cImg5 img {
+    width: 100%;
+    height: 100%; }
+.caseStudy__cont {
+  position: absolute;
+  bottom: -15%;
+  width: 45%; }
+  .caseStudy__cont p {
+    font-size: 17px;
+    font-family: 'PT_Sans-Regular';
+    line-height: 1.5;
+    color: #4a4a4a; }
+.caseStudy__eImg {
+  margin-top: 120px; }
+  .caseStudy__eImg img {
+    width: 100%;
+    height: 100%; }
+.caseStudy__content6 {
+  margin: 190px 167px 220px 167px;
+  position: relative; }
+.caseStudy__cImg6 {
+  width: 75%;
+  margin: 0 auto 0 0; }
+  .caseStudy__cImg6 img {
+    width: 100%;
+    height: 100%; }
+.caseStudy__cont1 {
+  position: absolute;
+  bottom: -15%;
+  width: 45%;
+  right: 0; }
+  .caseStudy__cont1 p {
+    font-size: 17px;
+    font-family: 'PT_Sans-Regular';
+    line-height: 1.5;
+    color: #4a4a4a; }
+.caseStudy__calImg {
+  margin: 120px 0; }
+  .caseStudy__calImg img {
+    width: 100%;
+    height: 100%; }
+.caseStudy__imgSlide {
+  padding: 0 15px; }
+  .caseStudy__imgSlide img {
+    width: 100%;
+    height: 100%; }
+.caseStudy .slick-prev {
+  left: 0;
+  display: none !important; }
+.caseStudy .slick-next {
+  right: 0;
+  display: none !important; }
+
 .lb_work_filter li {
   display: inline;
   padding: 10px;

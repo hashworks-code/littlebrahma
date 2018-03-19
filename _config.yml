@@ -33,16 +33,19 @@ theme: minima
 plugins:
   - jekyll-feed
 
+collections:
+  caseStudy:
+    title: casestudy
+    output: true
+    permalink: "/caseStudy/:path/"
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - _site
-  - .sass-cache
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
