@@ -1,11 +1,14 @@
-
+.mobile{
+    display: none;
+} 
 .caseStudy{
     &__banner{
-        margin: 313px 166px 168px 166px;
+        margin: 313px 0 168px 166px;
         font-weight: 600;
         font-family: 'MavenPro-Medium';
         font-size: 60px;
         color: #393939;
+        width: 735px;
         // padding-right: 85px;
         span{
             color: #ea1c49;
@@ -15,10 +18,11 @@
         img{
             width: 100%;
             height: 100%;
+            margin-bottom: 150px;
         }
     }
     &__content1{
-        margin: 150px 260px 140px 260px;
+        margin: 150px 0 140px 18%;
         border-left: 5px solid #2db2ea;
         padding: 0 100px;
         p{
@@ -48,7 +52,7 @@
         min-height: 654px;
         height: 100%;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         display: flex;
         align-items: center;
             // text-align: center;
@@ -83,8 +87,8 @@
         justify-content: flex-end;
     }
     &__content3{
-        width: 36%;
-        padding-right: 100px;
+        width: 40%;
+        padding-right: 6%;
         p{
             font-size: 17px;
             font-family: 'PT_Sans-Regular';
@@ -106,14 +110,14 @@
         min-height: 654px;
         height: 100%;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         display: flex;
         align-items: center;
             // text-align: center;
     }
     &__content4{
         width: 40%;
-        padding-left: 120px;
+        padding-left: 8%;
         p{
             font-size: 17px;
             font-family: 'PT_Sans-Regular';
@@ -130,8 +134,9 @@
 
     }
     &__content5{
-        margin: 120px 167px 0 167px;
+        margin: 120px auto 0 auto;
         position: relative;
+        width: 80%;
     }
     &__cImg5{
         width: 75%;
@@ -162,8 +167,9 @@
         }
     }
     &__content6{
-        margin: 190px 167px 220px 167px;
+        margin: 190px auto 220px auto;
         position: relative;
+        width: 80%;
     }
     &__cImg6{
         width: 75%;
@@ -177,7 +183,7 @@
     }
     &__cont1{
         position: absolute;
-        bottom: -15%;
+        bottom: -70px;
         width: 45%;
         right: 0;
         p{
@@ -211,3 +217,269 @@
         display: none !important;
       }
 }
+
+@media screen and (max-width: 1199px) {
+
+.caseStudy{
+    &__bgImg1{
+        background-size: contain;
+    }
+    &__banner{
+        margin: 313px 0 168px 102px;
+        font-size: 48px;
+        width: 540px;
+    }
+    &__content1{
+        margin: 150px 0 140px 18%;
+        padding: 0 100px;
+        p{
+            font-size: 17px;
+        }
+    }
+    &_cHead{
+            font-size: 24px;
+    }
+    &__content2{
+        p{
+            font-size: 17px;
+        }
+    }
+    &__c2Head{
+        font-size: 24px;
+
+    }
+    &__content3{
+        p{
+            font-size: 17px;
+        }
+    }
+    &__c3Head{
+        font-size: 24px;
+
+    }
+    &__content4{
+        p{
+            font-size: 17px;
+        }
+    }
+    &__c4Head{
+        font-size: 24px;
+
+    }
+    &__cont{
+        bottom: -20%;
+        p{
+            font-size: 17px;
+        }
+    }
+    &__cont1{
+        bottom: -20%;
+        p{
+            font-size: 17px;
+        }
+    }
+}
+}
+
+@media screen and (max-width: 1023px) {
+
+    .caseStudy{
+        &__banner{
+            margin: 313px 0 168px 75px;
+            font-size: 32px;
+            width: 400px;
+        }
+        &__bgImg{
+            min-height: 370px;
+        }
+        &__bgImg1{
+            min-height: 360px;
+        }
+        &__bgImg2{
+            min-height: 360px;
+        }
+        &__content2{
+            width: 45%;
+            padding-left: 90px;
+            p{
+                font-size: 14px;
+            }
+        }
+        &__c2Head{
+            font-size: 20px;
+    
+        }
+        &__content3{
+            p{
+                font-size: 14px;
+            }
+        }
+        &__c3Head{
+            font-size: 20px;
+    
+        }
+        &__content4{
+            p{
+                font-size: 14px;
+            }
+        }
+        &__c4Head{
+            font-size: 20px;
+    
+        }
+        &__cont{
+            bottom: -30%;
+            p{
+                font-size: 14px;
+            }
+        }
+        &__cont1{
+            bottom: -30%;
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+    }
+
+
+    @media screen and (max-width: 767px) {
+        .mobile1{
+            // height: 130px;
+            background-color: #fafafa;
+            // margin-bottom: 60px;
+        }
+        .mobile{
+            display: block;
+            padding: 0 30px;
+            &__img{
+                width: 100%;
+            }
+            &__img1{
+               padding-top: 30px;
+               padding-bottom: 30px;
+            }
+            &__img2 {
+                margin-bottom: 30px;
+            }
+        }
+        
+
+        .caseStudy{
+            &__eImg {
+                margin-top: 30px;
+            }
+            &__cImg5{
+                width: 100%;
+            }
+            &__cImg6{
+                width: 100%;
+            }
+            &__cImg{
+                display: none;
+            }
+            &__banner{
+                margin: 313px 0 168px 30px;
+                font-size: 24px;
+                width: 300px;
+            }
+            &__bgImg{
+                margin-top: 0;
+                min-height: 0;
+                background-image: none !important;
+                background-color: #fafafa;
+            }
+            &__bgImg11{
+                margin-top: 0;
+            }
+            &__bgImg1{
+                min-height: 0;
+                background-image: none !important;
+                background-color: #fafafa;
+            }
+            &__bgImg2{
+                min-height: 0;
+                background-image: none !important;
+                background-color: #fafafa;
+            }
+            &__content1{
+                margin: 30px;
+                padding: 0 0 0 30px;
+                p{
+                    font-size: 14px;
+                }
+            }
+            &_cHead{
+                    font-size: 18px;
+            }
+            &__content2{
+                width: 90%;
+                padding-left: 30px;
+                p{
+                    font-size: 14px;
+                }
+            }
+            &__c2Head{
+                font-size: 18px;
+        
+            }
+            &__content3{
+                width: 90%;
+                padding-right: 30px;
+                p{
+                    font-size: 14px;
+                }
+            }
+            &__c3Head{
+                font-size: 18px;
+        
+            }
+            &__content4{
+                width: 90%;
+                padding-top: 30px;
+                padding-left: 30px;
+                p{
+                    font-size: 14px;
+                }
+            }
+            &__content6{
+                margin: 30px auto 30px auto;
+            }
+            &__content5{
+                margin: 30px auto 30px auto;
+            }
+            &__c4Head{
+                font-size: 18px;
+        
+            }
+            &__cont{
+                width: 100%;
+                position: static;
+                margin-top: 30px;
+                bottom: 0;
+                p{
+                    font-size: 14px;
+                }
+            }
+            &__cont1{
+                width: 100%;
+                position: static;
+                margin-top: 30px;
+                bottom: 0;
+                p{
+                    font-size: 14px;
+                }
+            }
+        }
+        }
+
+        @media screen and (max-width: 340px) {
+
+            .caseStudy{
+                &__banner{
+                    margin: 150px 0 100px 20px;
+                    width: 295px;
+                }
+            }
+        }
+

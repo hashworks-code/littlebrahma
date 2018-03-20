@@ -7,6 +7,11 @@ keywords: Human Recourse Management system, Hiring solution, Talent Management S
 variation_image1: "/assets/images/caseStudy/group-5.png"
 variation_image2: "/assets/images/caseStudy/group-6.png"
 variation_image3: "/assets/images/caseStudy/group-8.png"
+variation_image4: "/assets/images/caseStudy/group-15.jpg"
+variation_image5: "/assets/images/caseStudy/scene-2.jpg"
+variation_image6: "/assets/images/caseStudy/scene4.jpg"
+variation_image7: "/assets/images/caseStudy/6-jun-img.jpg"
+variation_image8: "/assets/images/caseStudy/group-12.jpg"
 
 cBanner1: "The year of excitement :"
 
