@@ -20,7 +20,7 @@ function newFunction() {
       if (st > lastScrollTop) {
         if(($(window).scrollTop() + $(window).height()) >= $('.rContent_1').offset().top && (($(window).scrollTop() + $(window).height()) < $('.rContent_2').offset().top+200)){
           // console.log("r1")
-          $('.fixCont img').css({ transform: 'rotate(-32deg)',transition: "all 1.5s" });
+          $('.fixCont img').css({ transform: 'rotate(-32deg)',transition: "all 1s" });
           if($(window).width() > 1024){
               setTimeout(function(){
                 $('.prct .rContent_1').css({visibility:"visible"}).fadeIn();
@@ -29,7 +29,7 @@ function newFunction() {
         }
         else if(($(window).scrollTop() + $(window).height()) >= $('.rContent_2').offset().top && (($(window).scrollTop() + $(window).height()) < $('.rContent_3').offset().top+200)){
           // console.log("r2")
-          $('.fixCont img').css({ transform: 'rotate(90deg)',transition: "all 1.5s"});
+          $('.fixCont img').css({ transform: 'rotate(90deg)',transition: "all 1s"});
         }
         else if(($(window).scrollTop() + $(window).height()) >= $('.rContent_3').offset().top){
           // console.log("r3");
@@ -40,11 +40,11 @@ function newFunction() {
         // $('.fixCont img').css({ transform: 'rotate(' + deg + 'deg)' });
         if(($(window).scrollTop() + $(window).height()) >= $('.rContent_1').offset().top && (($(window).scrollTop() + $(window).height()) < $('.rContent_2').offset().top+200)){
           // console.log("r1")
-          $('.fixCont img').css({ transform: 'rotate(-32deg)',transition: "all 1.5s" });
+          $('.fixCont img').css({ transform: 'rotate(-32deg)',transition: "all 1s" });
         }
         else if(($(window).scrollTop() + $(window).height()) >= $('.rContent_2').offset().top && (($(window).scrollTop() + $(window).height()) < $('.rContent_3').offset().top+200)){
           // console.log("r2")
-          $('.fixCont img').css({ transform: 'rotate(90deg)',transition: "all 1.5s"});
+          $('.fixCont img').css({ transform: 'rotate(90deg)',transition: "all 1s"});
         }
         else if(($(window).scrollTop() + $(window).height()) >= $('.rContent_3').offset().top){
           // console.log("r3");
