@@ -1,7 +1,4 @@
 $(document).ready(function() {
-    // $('#fullpage').fullpage({
-    //     scrollBar:true
-    // });
     $('.dicContents .title').clone().prependTo(".imgContainer").addClass("hckTitle");
     newFunction();
 });
@@ -60,12 +57,6 @@ function newFunction() {
       if($(window).width() > 1024){
         $('.prct .rContent_1').css("visibility","hidden"); 
       }
-    //   if($(window).scrollTop()+80 < $(".scrollContainer").offset().top){
-    //     if (st < lastScrollTop) {
-    //         $('.prct .rContent_1').css("visibility","hidden");
-    //     }
-    //   }
-    //   $('.prct .rContent_1').css("visibility","visible");
     }
 
     if($(window).scrollTop() + $(window).height() >= $('.strategy_container').offset().top){
