@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>littleBrahma</title>
+    <link rel="icon" type="ico" href="/assets/images/asset-1.png">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta property="og:title" title="" />
+    <meta property="og:image" content="https://groome.co/" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="https://groome.co/" />
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="Robots" content="index,follow">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/menu.css">
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="/assets/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/slick/slick-theme.css"/>
+    <!-- Full Page Scroll -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/jquery.fullpage.css" />
+
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/vendors/jquery.easings.min.js"></script>
+
+
+    <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/vendors/scrolloverflow.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/jquery.fullpage.min.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery.mousewheel.min.js"></script>
+
+    <!-- End: FullPage Scroll -->
+    <style>
+
+.wBHeight,.workBlob{
+  height: inherit;
+}
+    </style>
+    <link rel="canonical" href="http://localhost:4000/">
+    <link rel="alternate" type="application/rss+xml" title="Groome - HR and Staffing solution" href="/feed.xml">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <script src="/assets/js/modernizr.js"></script>
+    <script src="https://code.jquery.com/pep/0.4.3/pep.js"></script>
+    
+  </head>
+  <body>
+    <header class="cd-header">
+      <div class="cd-logo"><a href="/"><img src="/assets/images/asset-1@3x.png" alt="Logo"></a></div>
+
+      <nav>
+        <ul class="cd-secondary-nav">
+          <li class="cd-secondary-navli"><a href="/work">Work</a></li>
+        <li class="cd-secondary-navli"><a href="/practice">Practice</a></li>
+          <li class="cd-secondary-navli"><a href="/aboutUs">About</a></li>
+          <li ><a class="cd-secondary-navLasta"><button class="headerButton">Lets talk</button></a></li>
+          
+          
+          
+        </ul>
+      </nav> <!-- cd-nav -->
+
+      <a class="cd-primary-nav-trigger" href="#0">
+        <span class="cd-menu-text">Menu</span><span class="cd-menu-icon"></span>
+      </a> <!-- cd-primary-nav-trigger -->
+    </header>
+
+    <nav>
+      <ul class="cd-primary-nav">
+        
+          <li><a href="/work">Work</a></li>
+        <li><a href="/practice">Practice</a></li>
+          <li><a href="/aboutUs">About</a></li>
+        <li><a><button class="headerButton">Lets talk</button></a></li>
+
+
+      </ul>
+    </nav>
+
+     <!-- slick script -->
+     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+     <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+     <script type="text/javascript" src="/assets/slick/slick.min.js"></script>
+     <script type="text/javascript" src="/assets/js/caseStudy.js"></script>
+   <!-- slick script end-->
+
+
+    <script>
+    jQuery(document).ready(function($){
+      //if you change this breakpoint in the style.css file (or _layout.scss if you use SASS), don't forget to update this value as well
+      var MQL = 1170;
+    
+      //primary navigation slide-in effect
+      // if($(window).width() > MQL) {
+      //   var headerHeight = $('.cd-header').height();
+      //   $(window).on('scroll',
+      //   {
+      //         previousTop: 0
+      //     }, 
+      //     function () {
+      //       var currentTop = $(window).scrollTop();
+            //check if user is scrolling up
+            // if (currentTop < this.previousTop ) {
+            //   //if scrolling up...
+            //   if (currentTop > 0 && $('.cd-header').hasClass('is-fixed')) {
+            //     $('.cd-header').addClass('is-visible');
+            //   } else {
+            //     $('.cd-header').removeClass('is-visible is-fixed');
+            //   }
+            // } else {
+              //if scrolling down...
+      //         $('.cd-header').removeClass('is-visible');
+      //         if( currentTop > headerHeight && !$('.cd-header').hasClass('is-fixed')) $('.cd-header').addClass('is-fixed');
+      //       }
+      //       this.previousTop = currentTop;
+      //   });
+      // }
+    
+      //open/close primary navigation
+      $('.cd-primary-nav-trigger').on('click', function(){
+        $('.cd-menu-icon').toggleClass('is-clicked'); 
+        $('.cd-header,.cd-primary-nav-trigger').toggleClass('menubar');
+        $('.cd-logo').toggle();
+        
+        //in firefox transitions break when parent overflow is changed, so we need to wait for the end of the trasition to give the body an overflow hidden
+        if( $('.cd-primary-nav').hasClass('is-visible') ) {
+          $('.cd-primary-nav').removeClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
+            $('body').removeClass('overflow-hidden');
+          });
+        } else {
+          $('.cd-primary-nav').addClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
+            $('body').addClass('overflow-hidden');
+
+          });	
+        }
+      });
+    });
+
+    // $(".cd-secondary-navli").on('click', function(){
+    //     $(this).addClass('headerActive');
+    //     $(this).siblings().removeClass('headerActive');
+    // });
+    
+    
+    
+    
+  </script>
+  
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Your sa title</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/aboutUs/">Expertise - Take the help from our hiring work</a><a class="page-link" href="/">Little Brahma</a><a class="page-link" href="/practice/">practice - Sales CRM and Application Tracking System | Groome</a><a class="page-link" href="/work/">Expertise - Take the help from our hiring work</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
+
+<div class="container">
+  <h1>404</h1>
+
+  <p><strong>Page not found :(</strong></p>
+  <p>The requested page could not be found.</p>
+</div>
+
+      </div>
+    </main> <div class="lb_homeThink">
+
+</div>
+<footer class="Groome-footer">
+   <!--<span> © Littlebrahma.2018</span>-->
+   <div class="lb-footer">
+        <div class="lb-footer-section">© Littlebrahma.2018</div>
+        <div class="lb-footer-section lb-icon-align"><i class="fa fa-facebook"></i>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-facebook"></i></div>
+        <div class="lb-footer-section lb-footer-textalign">hello@littlebrahma.com</div>
+   </div>
+<script type="text/javascript" src="/assets/js/fullPagescroll.js"></script>
+<script type="text/javascript" src="/assets/js/work.js"></script>
+</footer>
+</body>
+</html></body>
+
+</html>
