@@ -7,11 +7,28 @@
         // height: 100vh;
         width: 100vw;
     }
-    img{
-        width: 100%;
+    .genericTitle, .contextTitle{
+        font-family: "MavenPro-Medium"; 
+    }
+    .contextualTxt{
+        font-family: "PT_Sans-Regular";
     }
     .prctDicipline{
         background: #fff;
+    }
+    .rContent_1{
+        visibility: hidden;
+        // position: absolute;
+        // padding-top: 32%;
+    }
+    .right.Containers{
+        background: #fff;
+    }
+    img{
+        width: 100%;
+    }
+    .dnaImgMob{
+        display: none;
     }
     &_dic{
         padding-top: 45px;
@@ -47,10 +64,58 @@
             }
         }
     }
+    .dnaSummary {
+        background: #fff;
+    }
+    .dnaContainer{
+        font-family: "PT_Sans-Regular";
+        background: #fff;
+    }
 }
 
+@media screen and (min-width:320px) and (max-width:1024px){
+    .prct{
+        .dnaImgMob{
+            display: block;
+            width: 250px;
+            background: url(../assets/images/practice/dna.png) no-repeat scroll 0 0 transparent;
+            background-size: contain;
+            height: 250px;
+        }
+        .rContent_1,.rContent_2,.rContent_3{
+            visibility: visible;
+            display: flex;
+            flex-direction: column;
+            height: 250px;
+            justify-content: center;
+            padding: 0 15px;
+        }
+        .rContent_2 {
+            padding-left: 40px;
+        }
+        .rContent_1Img,.rContent_3Img{
+            margin-left: -135px;
+        }
+        .rContent_1Img{            
+            transform: rotate(-30deg);
+        }
+        .rContent_2Img{
+            margin-right: -135px;
+            transform: rotate(-90deg);
+        }
+        .rContent_3Img{
+            transform: rotate(210deg);
+        }
+    }
+}
 @media screen and (min-width:320px) and (max-width:767px){
     .prct{
+        .genericTitle{
+            font-size: 20px;
+        }
+        .fixCont{
+            display: none;
+        }
         &_dic{
             .hckTitle{
                 display: block;
@@ -76,9 +141,6 @@
             .bsTxt{
                 font-size: 14px;
             }
-            // img{
-            //     width: 
-            // }
         }
         &_svc{
             &_title{
@@ -101,10 +163,57 @@
                 }
             }
         }
+        .dnaContainer{
+            font-size: 14px;
+            padding-top:43px;
+            padding-bottom:21px;
+        }
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    .prct{
+        .fixCont {
+            display: none;
+        }
+        .dnaImgMob{
+            width: 508px;
+            height: 508px;
+        }
+        .rContent_1,.rContent_2,.rContent_3{
+            height: 508px;
+        }
+        .rContent_2 {
+            padding-left: 107px;
+        }
+        .rContent_1Img,.rContent_3Img{
+            margin-left: -270px;
+        }
+        .rContent_1Img{            
+            transform: rotate(-30deg);
+        }
+        .rContent_2Img{
+            margin-right: -265px;
+            transform: rotate(-90deg);
+        }
+        .rContent_3Img{
+            transform: rotate(210deg);
+        }
     }
 }
 @media screen and (min-width:768px){
     .prct{
+        .genericTitle{
+            font-size: 24px;
+        }
+        .contextTitle{
+            font-size: 24px;
+        }
+        .contextualTxt{
+            font-size: 20px;
+        }
+        .mobScreen{
+            width: 100%;
+        }
         &_dic{
             .hckTitle{
                 display: none;
@@ -154,10 +263,18 @@
                 }
             }
         }
+        .dnaContainer{
+            font-size: 17px;
+            padding-top:52px;
+            padding-bottom:20px;
+        }
     }    
 }
 @media screen and (min-width:1025px){
     .prct{
+        .genericTitle{
+            font-size: 32px;
+        }
         &_dic{
             .title{
                 font-size: 32px;
@@ -202,10 +319,109 @@
                 padding-top: 15px;
             }
         }
+        .dnaContainer{
+            font-size: 17px;
+            padding-top:35px;
+            padding-bottom:85px;
+        }
+        .scrollContainer{
+            height: calc(300vh - 80px);
+            position: relative;
+            background: #fff;
+            img{
+                width:auto;
+            }
+        }
+        .fixCont{
+            /* background:url("../img/1.png") scroll 0 0 no-repeat transparent; */
+            height: calc(100vh - 80px);
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%,0);
+            -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+            animation-name: example;
+            animation-duration: 1s;
+        }
+        .fixCont img{
+            // height:inherit;
+            height: 100%;
+        }
+        
+        .fixedClass{
+            position: fixed;
+            top: 80px;
+            left: 0%;
+            transform: translate(-50%,0);
+            -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+            animation-name: example2;
+            animation-duration: 1s;
+        }
+        
+        
+        /* Safari 4.0 - 8.0 */
+        @-webkit-keyframes example {
+            from {left: 0%;}
+            to {left: 50%;}
+        }
+        
+        /* Standard syntax */
+        @keyframes example {
+            from {left: 0%;}
+            to {left: 50%;}
+        }
+        
+        /* Safari 4.0 - 8.0 */
+        @-webkit-keyframes example2 {
+            from {left: 50%;}
+            to {left: 0%;}
+        }
+        
+        /* Standard syntax */
+        @keyframes example2 {
+            from {left: 50%;}
+            to {left: 0%;}
+        }
+        
+        .rContent{
+            height:calc(100vh - 80px);
+        }
+        // .strategy_container{
+        //     height:100vh;
+        // }
+        
+        .posAbs{
+            position: absolute;
+            bottom: 0 !important;
+            left: 0%;
+            top: unset;
+        }
+
+        .right.Containers {
+            display: block;
+            width: 40%;
+            margin: 0 auto;
+            top: 10%;
+            position: relative;
+            background: transparent;
+        }
+        .rContent_1 {
+            padding-top: 135px;
+        }
     }    
 }
 @media screen and (min-width:1367px){
     .prct{
+        .genericTitle{
+            font-size: 48px;
+        }
+        .contextTitle{
+            font-size: 24px;
+        }
+        .contextualTxt{
+            font-size: 28px;
+        }
         &_dic{
             .title{
                 font-size: 48px;
@@ -250,6 +466,11 @@
                     width: 830px;
                 }
             }
+        }
+        .dnaContainer{
+            font-size: 20px;
+            padding-top:40px;
+            padding-bottom:85px;
         }
     }    
 }
